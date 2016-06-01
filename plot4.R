@@ -21,11 +21,11 @@ par_df <- par
 par(mfrow = c(2,2))
 
 ## First plot...
-plot(data$Date, data$Voltage, type = "l",
+plot(data$Date, data$Global_active_power, type = "l",
      ylab = "Global Active Power (kilowatts)", xlab ="")
 
 ## ...second
-plot(data$Date, data$Global_active_power, type = "l",
+plot(data$Date, data$Voltage, type = "l",
      ylab = "Voltage", xlab ="datetime")
 
 ## ...third
